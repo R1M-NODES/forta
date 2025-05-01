@@ -68,5 +68,4 @@ ExecStart=/usr/bin/forta run
 WantedBy=multi-user.target
 EOF
 
-# Initializing Forta with the passphrase
-forta init --passphrase $FORTA_PASSPHRASE
+

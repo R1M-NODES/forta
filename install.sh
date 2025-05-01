@@ -9,7 +9,7 @@ printLogo
 #!/bin/bash
 
 # Prompting for values of each variable
-read -p "Enter your FORTA passphrase: " FORTA_PASSPHRASE
+read -p "Enter your FORTA passphrase:(a-z, A-Z, 0-9) with at least 12 characters) " FORTA_PASSPHRASE
 read -p "Enter your FORTA owner address: " FORTA_OWNER_ADDRESS
 read -p "Enter the FORTA RPC URL: " FORTA_RPC_URL
 read -p "Enter the FORTA Proxy RPC URL: " FORTA_PROXY_RPC_URL
